@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 12px;
+        font-family: Roboto;
+        font-weight: 500;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text id="_" data-name="+" class="cls-1" x="7.999" y="16">+</text>
+  <path class="cls-2" d="M501,309l6,6,11-11-11,7-4-4Z" transform="translate(-501 -304)"/>
+</svg>

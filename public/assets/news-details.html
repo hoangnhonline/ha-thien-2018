@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie6 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 7 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie7 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie8 lte8 lte9"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie9 lte9"><![endif]-->
+<!--[if IE 10 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie10 lte10"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="vn">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+	<title>News Details</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index,follow" />
+	<!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+
+	<!-- ===== Style CSS ===== -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-hd.css">
+	<!-- ===== Responsive CSS ===== -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<link href='css/animations-ie-fix.css' rel='stylesheet'>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="home">
+
+	<header id="header" class="header">
+		<div class="header_top top-bar clearfix">
+			<div class="container">
+				<div class="row">
+					<nav class="top-bar_item top-bar_item-nav navigation navigation-inline pull-right">
+						<ul id="user_info_header" class="navbar-right">
+							<li>
+								<a data-url="#" title="Đăng nhập bằng Facebook" class="user-name-loginfb"><i class="fa fa-facebook-square"></i>Đăng nhập bằng Facebook</a>
+							</li>
+						</ul>
+					</nav>
+					<nav class="top-bar_item top-bar_item-nav navigation navigation-inline pull-right" style="border-right: 1px solid #fff;">
+					    <ul id="user_support" class="navbar-right">
+					        <li><a href="callto:19006760">
+					            <i class="hd hd-phone"></i> Hotline:&nbsp;<span class="hotline_number">1900 6760</span></a>
+					        </li>
+					        <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					        <li>
+					            <a href="javascript:void($zopim.livechat.window.show())"><i class="hd hd-question-circle"></i> Hỗ trợ trực tuyến</a>
+					        </li>
+					    </ul>
+					</nav>
+				</div>
+			</div>
+		</div><!-- /.header -->
+		<div class="fix-header">
+			<div class="header_main clearfix">
+				<div class="container">
+					<div class="row">
+						<a class="toggle-nav visible-xs visible-sm">
+							<i class="hd hd-nav"></i>
+						</a><!-- /.toggle-nav -->
+						<a class="toggle-search visible-xs visible-sm">
+							<i class="hd hd-search"></i>
+						</a><!-- /.toggle-search -->
+						<div class="logo-wrapper col-md-4">
+						    <a href="#" title="">
+						        <img src="images/logo.png" alt="">
+						    </a>
+						</div><!-- /.logo-wrapper -->
+						<div class="search-area col-md-6" id="main-search">
+							<form action="/tim-kiem" method="get" class="">
+								<div class="search-box form-inline clearfix">
+									<div class="search-box_category">
+										<select class="selectpicker" id="category_search" name="category">
+											<option value="0">Tất cả danh mục</option>
+											<option value="557">- Ẩm thực</option>
+											<option value="579">- Spa &apm; Làm đẹp</option>
+											<option value="555">- Giải trí</option>
+											<option value="581">- Du Lịch</option>
+											<option value="571">- Sản Phẩm</option>
+											<option value="593">- Thời Trang &apm; Phụ Kiện</option>
+										</select>
+									</div>
+									<div class="search-box_input">
+										<span class="twitter-typeahead">
+											<input type="text" class="form-control input-search tt-hint" value="" autocomplete="off" placeholder="Tìm kiếm sản phẩm / khuyến mãi">
+										</span>
+										<button class="btn btn-primary">
+											<i class="hd hd-search"></i>
+											<span class="sr-only">Tìm kiếm</span>
+										</button>
+									</div>
+								</div>
+							</form>
+						</div><!-- /.search-area -->
+						<div class="col-md-2 header-cart-wrapper">
+							<ul class="header-cart">
+								<li class="nav-cart">
+									<a href="#" data-toggle="dropdown">
+										<i class="hd hd-cart"></i>
+										<span class="circle">1</span>
+										<span class="hidden-xs hidden-sm">Giỏ hàng</span>
+									</a>
+									<div class="dropdown-menu dropdown-cart">
+										<div class="minicart_wrapper">
+										    <div class="minicart_item">
+										        <div class="minicart_item_info">
+										            <img src="images/cart/338333-buffet-trua-bbq-bo-my-hai-san-lau-gan-50-mon-tai-nha-hang-yaki-3.jpg" alt="">
+										            <div class="minicart_item_name">
+										                <div><a href="/ho-chi-minh/buffet-viet-nhat-han/buffet-trua-bbq-bo-my-hai-san-lau-gan-50-mon-tai-nha-hang-yaki-3-338333.html">Buffet Trưa BBQ Bò Mỹ - Hải Sản - Lẩu Gần 50 Món Tại Nhà Hàng Yaki 3 - <span style="color: #999;">Mã SP: 338333</span></a></div>
+										                <span class="minicart_item_price price"><span class="price_value">150,000</span><span class="price_symbol">đ</span></span> x 1
+										            </div>
+										        </div>
+										        <div class="minicart_item_actions"><a href="#" rel="nofollow" data-product="338333" title="Xóa khỏi giỏ hàng" class="btn-close show-on-hover">x</a></div>
+										    </div>
+										</div><!-- /.minicart_wrapper -->
+										<div class="minicart_summary">
+										    Tổng cộng: <strong>
+										    <span class="price price-highlight">
+										    <span class="price_value">150,000</span>
+										    <span class="price_symbol">đ</span>
+										    </span></strong>
+										</div><!-- /.minicart_summary -->
+										<div class="minicart_actions">
+										    <a class="btn btn-view-cart" href="/checkout-step-1" rel="nofollow">Xem giỏ hàng</a>
+										    <a class="btn btn-primary btn-buy-now btn-border" href="/checkout-step-2" rel="nofollow">Đặt hàng</a>
+										</div><!-- /.minicart_actions -->
+									</div><!-- /.dropdown-menu dropdown-cart -->
+								</li>
+							</ul><!-- /.header-cart -->
+						</div><!-- /.header-cart-wrapper -->
+					</div>
+				</div>
+			</div><!-- /.header_main -->
+			<nav id="mainNav" class="navbar navbar-default navbar-custom nav-top-menu1">
+	 		 	<div class="container" id="main-menu">
+					<div class="collapse navbar-collapse menu" id="menu-navbar-collapse">
+						<ul class="nav navbar-nav navbar-left">
+							<li class="level0"><a class="active" href="#" title="">Trang chủ</a></li>
+							<li class="level0 parent">
+								<a href="#" title="">Mỹ Phẩm</a>
+								<ul class="level0 submenu">
+									<li class="level1 parent">
+										<a href="#" title="">Kem</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Sữa rửa mặt</a></li>
+											<li><a href="#" title="">Bột rửa mặt</a></li>
+											<li><a href="#" title="">Dung dịch hoa hồng</a></li>
+											<li><a href="#" title="">Các loại sản phẩm đi kèm chăm sóc da</a></li>
+										</ul>
+									</li>
+									<li class="level1 parent">
+										<a href="#" title="">Dành cho cơ thể</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Sữa tắm</a></li>
+											<li><a href="#" title="">Sữa dưỡng da</a></li>
+											<li><a href="#" title="">Các loại mỹ phẩm bảo về da chống nắng</a></li>
+										</ul>
+									</li>
+									<li class="level1 parent">
+										<a href="#" title="">Dòng sản phẩm trang điểm</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Phấn trang điểm</a></li>
+											<li><a href="#" title="">Kem nền</a></li>
+											<li><a href="#" title="">Son</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="level0 parent">
+								<a href="#" title="">Dòng thức ăn homemade</a>
+								<ul class="level0 submenu">
+									<li class="level1">
+										<a href="#" title="">Bánh sản xuất theo lịch hàng ngày</a>
+									</li>
+									<li class="level1 parent">
+										<a href="#" title="">Các thực phẩm khô</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Khô bò</a></li>
+											<li><a href="#" title="">Khô gà</a></li>
+										</ul>
+									</li>
+									<li class="level1 parent">
+										<a href="#" title="">Thực phẩm dùng trong thời gian cố định</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Lạp xưởng tươi - khô</a></li>
+											<li><a href="#" title="">Sản phẩm sấy khô</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="level0 parent">
+								<a href="#" title="">Dòng sản phẩm family</a>
+								<ul class="level0 submenu">
+									<li class="level1">
+										<a href="#" title="">Phụ kiện nữ</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Phụ kiện nam</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Dụng cụ dành cho trẻ em, sơ sinh</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Bedroom</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Kitchen</a>
+									</li>
+								</ul>
+							</li>
+							<li class="level0 parent">
+								<a href="#" title="">Quà tặng cao cấp</a>
+								<ul class="level0 submenu">
+									<li class="level1">
+										<a href="#" title="">Sâm, linhc chi, tổ yến</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Rượu nhập các loại</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Bánh nguyên hôp thiếc nhập Nhật</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Thực phẩm chức năng từ Nhật - Mỹ - Úc - Hà Lan</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Kitchen</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="contact.html" title="">Liên hệ</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+		        </div>
+	    	</nav><!-- END NAVIGATION -->
+    	</div><!-- /.fix-header -->
+	</header><!-- /.header -->
+
+	<div class="container">
+		<div class="block-breadcrumb">
+			<ol class="breadcrumb">
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#">Tin tức</a></li>
+				<li class="active">Diện tích bao nhiêu mới được cấp giấy phép xây dựng nhà ở</li>
+			</ol>
+		</div>
+	</div><!-- /.breadcrumb -->
+
+	<main class="main-content clearfix">
+		<div class="container">
+			<div class="row" id="block-main-container">
+				<div class="col-md-3 category-sidebar" id="category_sidebar">
+					<form action="" method="post" id="filter_page_category">
+						<div class="product-filters box box-shadow box-no-padding">
+							<div class="filter filter-listing">
+								<div class="filter_title">
+									<i class="filter_icon fa fa-bars"></i> DANH MỤC
+								</div>
+								<div class="filter_body">
+									<label class="filter_button">
+										<a href="#" title="">Ẩm thực <span>165</span></a>
+										<ul>
+											<li><a href="#" title="">Nhà hàng <span>74</span></a></li>
+											<li><a href="#" title="">Buffet <span>69</span></a></li>
+											<li><a href="#" title="">Café -Kem - Bánh <span>21</span></a></li>
+											<li><a href="#" title="">Yến sào và thực phẩm  <span>1</span></a></li>
+										</ul>
+									</label>
+								</div>
+							</div><!-- /.filter -->
+							<div class="filter">
+								<div class="filter_title">
+									<i class="filter_icon fa fa-sort"></i> Địa điểm
+									<!-- <a href="#" class="toggle-filter"><i class="fa fa-chevron-down"></i></a> -->
+								</div>
+								<div class="filter_body">
+								    <label class="filter_button active">
+								    <input type="checkbox" name="c" value="64973" data-slug="binh-chanh">
+								    Bình Chánh <span>1</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65121" data-slug="binh-tan">
+								    Bình Tân <span>3</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65123" data-slug="binh-thanh">
+								    Bình Thạnh <span>7</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65105" data-slug="go-vap">
+								    Gò vấp <span>8</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65103" data-slug="phu-nhuan">
+								    Phú Nhuận <span>21</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65101" data-slug="quan-1">
+								    Quận 1 <span>54</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65143" data-slug="quan-10">
+								    Quận 10 <span>13</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65145" data-slug="quan-11">
+								    Quận 11 <span>3</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65125" data-slug="quan-12">
+								    Quận 12 <span>3</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65127" data-slug="quan-2">
+								    Quận 2 <span>7</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65129" data-slug="quan-3">
+								    Quận 3 <span>14</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65131" data-slug="quan-4">
+								    Quận 4 <span>3</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65133" data-slug="quan-5">
+								    Quận 5 <span>10</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65135" data-slug="quan-6">
+								    Quận 6 <span>1</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65137" data-slug="quan-7">
+								    Quận 7 <span>8</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65139" data-slug="quan-8">
+								    Quận 8 <span>1</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="64976" data-slug="quan-9">
+								    Quận 9 <span>2</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="65107" data-slug="tan-binh">
+								    Tân Bình <span>11</span>
+								    </label>
+								    <label class="filter_button ">
+								    <input type="checkbox" name="c" value="64985" data-slug="thu-duc">
+								    Thủ Đức <span>1</span>
+								    </label>
+								</div>
+							</div><!-- /.filter -->
+							<div class="filter">
+								<div class="filter_title">
+					                <i class="filter_icon fa fa-usd"></i> KHOẢNG GIÁ
+					                <!-- <a href="#" class="toggle-filter"><i class="fa fa-chevron-down"></i></a> -->
+					            </div>
+					            <div class="filter_body">
+					            	<div class="slider-range">
+	                                    <div id="slider-range"></div>
+	                                    <div class="action">
+	                                        <span class="price-range">Range: <span id="amount-left"></span> - <span id="amount-right"></span></span>
+	                                    </div>
+	                                </div>
+					            </div>
+							</div><!-- /.filter -->
+						</div>
+					</form>
+				</div><!-- /.col-md-3 -->
+				<div class="col-md-9 category-content">
+					<div class="box box-shadow">
+						<div class="wysiwyg wysiwyg-news">
+						    <h1 class="page-title">Chính sách giao hàng</h1>
+						    <p><img src="images/23415632_523466814684592_1735707746279960072_o.jpg" alt=""></p>
+						    <p><strong>Khu vực, thời gian và cước phí giao hàng được Hotdeal áp dụng như sau:</strong></p>
+						    <table style="border-collapse: collapse; color: #333333; font-family: Arial, Tahoma, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 16px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; background-color: #ffffff;" border="1" cellspacing="0" cellpadding="0" width="100%">
+						        <tbody></tbody>
+						        <tbody>
+						            <tr>
+						                <td style="text-align: center;" width="49">
+						                    <p><strong>STT</strong></p>
+						                </td>
+						                <td width="290">
+						                    <p style="text-align: center;"><strong>KHU   VỰC</strong></p>
+						                </td>
+						                <td style="text-align: center;" width="125">
+						                    <p><strong>THỜI GIAN</strong></p>
+						                    <p><strong>GIAO HÀNG</strong></p>
+						                    <p><strong>(Không   kể Thứ 7, CN)</strong></p>
+						                </td>
+						                <td width="196">
+						                    <p style="text-align: center;"><strong>CƯỚC PHÍ</strong></p>
+						                    <p style="text-align: center;"><strong>GIAO   HÀNG</strong></p>
+						                    <p style="text-align: center;"><strong>Đối   với sản phẩm/ Voucher</strong></p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td style="text-align: center;" width="49">
+						                    <p>1</p>
+						                </td>
+						                <td width="290">
+						                    <p>Nội thành Hồ Chí Minh</p>
+						                </td>
+						                <td style="text-align: center;" width="125">
+						                    <p>1 - 2 &nbsp;ngày</p>
+						                </td>
+						                <td rowspan="2" width="196">
+						                    <p>+ Đơn hàng từ 150.000vnđ   trở lên: miễn phí giao hàng</p>
+						                    <p>+ Đơn hàng dưới   150.000vnđ: 9.000vnđ.</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td style="text-align: center;" width="49">
+						                    <p>2</p>
+						                </td>
+						                <td width="290">
+						                    <p>Nội thành Hà Nội</p>
+						                </td>
+						                <td style="text-align: center;" width="125">
+						                    <p>2 - 4&nbsp;&nbsp;ngày</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td style="text-align: center;" width="49">
+						                    <p>3</p>
+						                </td>
+						                <td width="290">
+						                    <p>Ngoại thành Hồ Chí Minh   bao gồm các Huyện <span id="im-message-757330" class="bx-messenger-message ">Củ Chi, Hóc Môn, Bình Chánh, Quận 9, Cần Giờ, Nhà Bè, Thủ Đức</span></p>
+						                </td>
+						                <td style="text-align: center;" width="125">
+						                    <p>2 - 3 ngày</p>
+						                </td>
+						                <td width="196">
+						                    <p>+ Đơn hàng từ 300.000vnđ   trở lên: miễn phí giao hàng</p>
+						                    <p>+ Đơn hàng dưới 300.000vnđ:   19.000vnđ</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td style="text-align: center;" width="49">
+						                    <p>4</p>
+						                </td>
+						                <td width="290">
+						                    <p>Ngoại thành Hà Nội bao gồm   các Huyện Ba Vì, Chương Mỹ, Đan Phượng, Đông Anh, Gia Lâm, Hoài Đức, Mê Linh, Mỹ Đức, Phú Xuyên, Phúc Thọ, Quốc Oai, Sóc Sơn, Thạch Thất, Thanh Oai, Thanh Trì, Thường Tín, Ứng Hòa, Thị Xã Sơn Tây</p>
+						                </td>
+						                <td style="text-align: center;" width="125">
+						                    <p>3 - 5&nbsp;&nbsp;ngày</p>
+						                </td>
+						                <td rowspan="4" width="196">
+						                    <p>+ Đơn hàng từ 500.000vnđ   trở lên: miễn phí giao hàng</p>
+						                    <p>+ Đơn hàng dưới 500.000vnđ:   35.000vnđ.</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td width="49">
+						                    <p style="text-align: center;">5</p>
+						                </td>
+						                <td width="290">
+						                    <p>Miền Nam</p>
+						                </td>
+						                <td style="text-align: center;" width="125">
+						                    <p>3 - 5 &nbsp;ngày</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td width="49">
+						                    <p style="text-align: center;">6</p>
+						                </td>
+						                <td width="290">
+						                    <p>Miền Trung</p>
+						                </td>
+						                <td style="text-align: center;" width="125">
+						                    <p>5 - 7 ngày</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td width="49">
+						                    <p style="text-align: center;">7</p>
+						                </td>
+						                <td width="290">
+						                    <p>Miền Bắc</p>
+						                </td>
+						                <td style="text-align: center;" width="125">
+						                    <p>6 - 10 ngày</p>
+						                </td>
+						            </tr>
+						        </tbody>
+						    </table>
+						    <p>&nbsp;</p>
+						    <table style="width: 100%;" border="1" cellspacing="0" cellpadding="0">
+						        <tbody>
+						            <tr>
+						                <td width="100%" valign="top">
+						                    <p><strong>Đối với các đơn hàng e-Voucher du lịch và e-Voucher   thu tiền mặt (COD) khách hàng được MIỄN PHÍ giao hàng.</strong></p>
+						                </td>
+						            </tr>
+						        </tbody>
+						    </table>
+						    <p><strong><em><span style="text-decoration: underline;">Lưu ý:</span></em></strong> Thời gian giao hàng có thể dao động tùy theo sản phẩm Quý khách đặt mua, Quý khách vui lòng&nbsp;tham khảo về tình trạng đơn hàng bằng cách gọi lên tổng đài của Hotdeal: <strong>1900 6760</strong></p>
+						    <p>&nbsp;</p>
+						    <p><strong>CÁC CÂU HỎI THƯỜNG GẶP</strong></p>
+						    <p><strong>&nbsp;</strong><strong>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Hotdeal giao hàng ở những phạm vi, khu vực nào?</strong></p>
+						    <p>Hotdeal giao hàng trên toàn quốc, bạn ở bất cứ nơi nào cũng có thể đặt hàng và nhận hàng từ Hotdeal, chúng tôi sẽ giao hàng tới tận địa chỉ của bạn.</p>
+						    <p><strong>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Có được thanh toán tiền khi nhận hàng?</strong></p>
+						    <p>Quý khách có thể thanh toán tiền ngay khi nhận hàng. Quý khách chỉ phải thanh toán theo số tiền phải thu trên thùng hàng (<em>số tiền này đã bao gồm cước phí giao hàng nếu có</em>). Với các đơn hàng Quý khách đã thanh toán trước, <em>bằng thẻ tín dụng, điểm tích lũy…</em> thì số tiền phải thanh toán là 0đ (<em>không đồng</em>). Quý khách vui lòng thanh toán bằng tiền Việt Nam đồng để thuận tiện nhất trong quá trình giao dịch.</p>
+						    <p><strong>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Tôi mua Voucher trên Hotdeal có thể nhận hàng theo những hình thức nào?</strong></p>
+						    <p>Quý khách mua Voucher trên Hotdeal có thể nhận hàng theo 3 hình thức sau:</p>
+						    <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Khách hàng nhận Voucher giấy thanh toán online hoặc nhân viên giao hàng đến giao</p>
+						    <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thanh toán online nhận mã e-Voucher qua sms/ email</p>
+						    <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nhân viên giao hàng đến thu tiền theo hình thức COD và kích hoạt, gửi mã e-Voucher qua sms/ email.</p>
+						    <p><strong>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Đơn hàng e-Voucher được tính phí như thế nào?</strong></p>
+						    <p>Đơn hàng e-Voucher Hotdeal hiện đang miễn phí giao hàng ở Hồ Chí Minh và Hà Nội.</p>
+						    <p><strong>5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Có được nhận một phần giỏ hàng?</strong></p>
+						    <p>Quý khách không thể nhận một phần giỏ hàng. Tất cả các sản phẩm của Quý khách đặt sẽ được đóng gói chung thành một thùng hàng trước khi giao tới tay Quý khách. Hiện tại Hotdeal chưa thể hỗ trợ Quý khách nhận một phần thùng hàng được.</p>
+						    <p><strong>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Tôi muốn thay đổi địa chỉ nhận hàng?</strong></p>
+						    <p>Quý khách có thể thay đổi địa chỉ nhận hàng. Nếu Quý khách muốn thay đổi địa chỉ nhận hàng vui lòng gọi lên tổng đài của Hotdeal <strong>1900 6760 </strong>để được hỗ trợ.</p>
+						    <p>Để các đơn hàng tiếp theo có địa chỉ mới, Quý khách vui lòng cập nhật địa chỉ mới trong tài khoản của Hotdeal tại: <a href="https://www.hotdeal.vn/thong-tin-giao-hang.html">https://www.hotdeal.vn/thong-tin-giao-hang.html</a></p>
+						    <p><a href="https://www.hotdeal.vn/thong-tin-giao-hang.html"></a><strong>7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Tôi đã nhận hàng rồi nhưng không hài lòng và muốn trả lại có được không?</strong></p>
+						    <p>Quý khách có thể thực hiện đổi trả hàng hóa sau khi nhận hàng.</p>
+						    <p>Nếu Quý khách không hài lòng muốn trả lại, Hotdeal sẽ thực hiện thu hồi và hoàn tiền lại cho Quý khách theo quy định đổi trả của Hotdeal. Tại link:</p>
+						    <p><a href="https://www.hotdeal.vn/chinh-sach-doi-tra-hang.html">https://www.hotdeal.vn/chinh-sach-doi-tra-hang.html</a></p>
+						    <p><a href="https://www.hotdeal.vn/chinh-sach-doi-tra-hang.html"></a><strong>8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Lúc Hotdeal giao hàng tôi có việc bận đột xuất, tôi có được hẹn lại lần giao hàng khác không?</strong></p>
+						    <p>Quý khách có thể hẹn lại thời gian giao hàng. Trước khi giao hàng, nhân viên giao hàng của Hotdeal sẽ gọi điện cho Quý khách để xác nhận giao hàng. Nếu Quý khách không thể nhận hàng ở thời điểm đó có thể hẹn lại một ngày giao khác để nhân viên đến giao hàng cho Quý khách.</p>
+						    <p>Để đơn hàng được giao nhanh chóng đến tay Quý khách, Quý khách vui lòng hẹn lại khoảng thời gian giao hàng chính xác (trừ chiều Thứ 7, Chủ nhật và các ngày lễ Tết) để nhân viên giao hàng có thể dễ dàng liên lạc và giao hàng cho Quý khách.</p>
+						    <p><strong>9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><strong>Tôi có thể ủy quyền cho người khác nhận hàng thay được không?</strong></p>
+						    <p>Quý khách có thể nhờ người khác nhận hàng thay đối với các đơn hàng thanh toán trả sau.</p>
+						    <p>Riêng đối với các đơn hàng trả trước, Quý khách vui lòng chuẩn bị thư ủy quyền với chữ ký xác nhận của Quý khách trong đó nêu rõ người được ủy quyền nhận đơn hàng.</p>
+						    <p><strong>10.&nbsp; </strong><strong>Hotdeal có giao hàng vào cuối tuần và ngày lễ?</strong></p>
+						    <p>Hiện tại, lịch giao hàng của Hotdeal là từ Thứ 2 đến Thứ 6 theo giờ hành chính 8h đến 17h. Thứ 7 giao buổi sáng từ 8h đến 12h.</p>
+						    <p>Hotdeal không hỗ trợ giao hàng vào các ngày lễ, tết theo quy định hiện hành.</p>
+						    <p><strong>11.&nbsp; </strong><strong>Tôi đặt đơn hàng có nhiều sản phẩm nhưng chỉ nhận được một phần đơn hàng, vậy những sản phẩm còn lại khi nào Hotdeal sẽ giao đến cho tôi?</strong></p>
+						    <p>Hotdeal có rất nhiều gian hàng của các đối tác khác nhau, đơn hàng của Quý khách có thể đã có một hoặc nhiều sản phẩm từ các đối tác của Hotdeal.</p>
+						    <p>Do đó, thời gian Quý khách nhận được đơn hàng sẽ khác nhau tùy vào từng đối tác. Tuy nhiên phí giao hàng (nếu có) sẽ tính một lần duy nhất.</p>
+						    <p><strong>12.&nbsp; </strong><strong>Trường hợp nào sẽ làm cho quá trình giao hàng của Hotdeal không đúng cam kết về thời gian?</strong></p>
+						    <p>Hotdeal luôn nỗ lực giao hàng cho Quý khách trong thời gian sớm nhất có thể, tuy nhiên những trường hợp bất khả kháng phát sinh có thể làm chậm quá trình giao hàng của Hotdeal đến Quý khách:</p>
+						    <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thông tin giao hàng của Quý khách không đầy đủ về địa chỉ/ số điện thoại liên lạc dẫn đến nhân viên giao hàng của Hotdeal không tìm ra địa chỉ/ không liên lạc được với quý khách;</p>
+						    <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nhân viên giao hàng của chúng tôi liên lạc nhiều lần với Quý khách để giao hàng nhưng thuê bao không liên lạc được/ Quý khách không nghe máy;</p>
+						    <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hotdeal đã mang hàng đến giao nhưng Quý khách không thể nhận hàng và hẹn lại;</p>
+						    <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nhân viên giao hàng của Hotdeal đã đến giao hàng nhưng Quý khách để nhân viên chờ quá 10 phút và không thể liên lạc được với quý khách,</p>
+						    <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Những trường hợp bất khả kháng phát sinh như thiên tai (động đất, lốc xoáy, mưa bão, tai nạn…) hoặc các trường hợp khác khiến giao thông bị gián đoạn.</p>
+						    <p><strong>13.&nbsp; </strong><strong>Khi Hotdeal giao hàng, tôi có thể yêu cầu đồng kiểm đơn hàng với nhân viên giao hàng của Hotdeal được hay không?</strong></p>
+						    <p>Quý khách có thể yêu cầu được mở thùng hàng kiểm tra hàng hóa bên trong dưới sự chứng kiến của nhân viên giao hàng về chất lượng hàng hóa, số lượng, chủng loại, tính nguyên vẹn… có đúng với sản phẩm của Quý khách đã đặt trên website hay không, trước khi tiến hành thanh toán cho Hotdeal.</p>
+						    <p>Sau khi đồng kiểm, Quý khách tiến hành ký vào thiết bị của nhân viên giao hàng để làm bằng chứng. Mọi vấn đề về hàng hóa phát sinh sau khi khách hàng ký vào thiết bị Hotdeal sẽ không chịu trách nhiệm.</p>
+						    <p><strong><br></strong></p>
+						</div>
+					</div>
+				</div><!-- /.col-md-9 -->
+			</div>
+		</div>
+	</main><!-- /.main -->
+
+	<footer id="footer" class="footer clearfix">
+		<div class="footer_top">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-8">
+		                <div class="row footer-menu">
+		                    <div class="col-md-4 footer-menu_column">
+		                        <h3 class="menu_heading">Giới thiệu</h3>
+		                        <ul class="menu_listing">
+		                            <li><a href="#">Về Chúng Tôi</a></li>
+		                            <li><a href="#">Quy chế hoạt động</a></li>
+		                            <li><a href="#">Chính sách bảo mật thông tin</a></li>
+		                            <li><a href="#">Cơ chế giải quyết tranh chấp</a></li>
+		                            <li><a href="#">Liên Hệ</a></li>
+		                        </ul>
+		                    </div>
+		                    <div class="col-md-4 footer-menu_column">
+		                        <h3 class="menu_heading">Trợ giúp</h3>
+		                        <ul class="menu_listing">
+		                            <li><a href="#">Quy trình xử lý khi phát hiện hành vi kinh doanh vi phạm </a></li>
+		                            <li><a href="#">Biện pháp xử lý khi phát hiện hành vi kinh doanh vi phạm </a></li>
+		                            <li><a href="#">Cơ chế kiểm soát các nhà cung cấp</a></li>
+		                            <li><a href="#">Hotdeal E-voucher</a></li>
+		                            <li><a href="#">Chính sách giao hàng</a></li>
+		                            <li><a href="#">Chính sách đổi trả hàng</a></li>
+		                            <li><a href="#">Cách thức thanh toán</a></li>
+		                        </ul>
+		                    </div>
+		                    <div class="col-md-4 footer-menu_column">
+		                        <h3 class="menu_heading">Hợp tác</h3>
+		                        <ul class="menu_listing">
+		                            <li><a href="#">Hợp tác kinh doanh</a></li>
+		                            <li><a href="#">Liên hệ hợp tác</a></li>
+		                        </ul>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-md-4 support-info">
+		            	<div class="row">
+			                <div class="col-md-12">
+			                    <h3 class="support-info_heading">Trung tâm chăm sóc khách hàng Tp.HCM</h3>
+			                    <div class="support-info_address">
+			                        70 Lữ Gia, Phường 15, Quận 11, TP.HCM 
+			                    </div>
+			                    <div class="support-info_contact contact">
+			                        <div class="contact_email">Fax: (028) 3866 6237</div>
+			                        <div class="contact_email">Email: <a href="mailto:cs@hotdeal.vn"> cs@hotdeal.vn</a></div>
+			                    </div>
+			                </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="footer_middle">
+			<div class="container">
+				<div class="col-fter-1 col-xs-0">
+					<form action="#" class="fv-form fv-form-bootstrap">
+						<p style="margin-bottom: 10px;"><strong>Đăng ký nhận bản tin khuyến mãi</strong></p>
+						<div class="newsletter form-inline">
+							<div class="form-group has-feedback">
+								<div class="input-group">
+									<input type="text" class="form-control newsletter_input" name="" placeholder="Nhập email của bạn" value="">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<button type="submit" class="btn btn-primary newsletter_button">Đăng ký
+									</button>
+								</div>
+							</div>
+						</div>
+						<label class="control-label register-new-letter-comfirm-footer" style="font-weight: normal;">
+							<input type="checkbox" name="" value="1">
+							Đồng ý với <a target="_blank" href="#">chính sách bảo mật thông tin</a>.
+						</label>
+					</form>
+				</div>
+				<div class="col-fter-3">
+					<div class="social">
+						<div class="social_heading footer-menu-heading">KẾT NỐI VỚI Shop</div>
+						<div class="social_items">
+							<a target="_blank" class="social_item social_item-facebook" href="#" rel="nofollow"><i class="fa fa-facebook"></i></a>
+							<a target="_blank" class="social_item social_item-twitter" href="#" rel="nofollow"><i class="fa fa-twitter"></i></a>
+							<a target="_blank" class="social_item social_item-google-plus" href="#" rel="nofollow"><i class="fa fa-google-plus"></i></a>
+							<a target="_blank" class="social_item social_item-linkedin" href="#" rel="nofollow"><i class="fa fa-linkedin"></i></a>
+							<a target="_blank" class="social_item social_item-youtube" href="#" rel="nofollow"><i class="fa fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-fter-4">
+					<div class="hotline">
+						<span class="hotline_text">HOTLINE&nbsp;</span>
+						<span class="hotline_number">1900 6760</span>
+					</div>
+				</div>
+				 <div class="col-fter-5">
+		            <a target="_blank" href="#">
+		            <img class="img-responsive" src="images/logo-bct.png" style="max-width: 165px;">
+		            </a>
+		        </div>
+			</div>
+		</div>
+		<div class="footer_bottom ">
+		    <div class="container">
+	            <p class="text-center">
+	                <strong class="font15">CÔNG TY CỔ PHẦN HOTDEAL - <br class="visible-xs visible-sm"> TẦNG 2, LỮ GIA PLAZA, 70 LỮ GIA, P.15, Q.11, TP HCM</strong><br>
+	                Mã số thuế: 0310955176 do Sở Kế hoạch đầu tư <br class="visible-xs visible-sm">TP HCM cấp ngày 29/06/2011<br>
+	                ĐT: 028.73055707 – Fax: 028.38666237 - <br class="visible-xs visible-sm">Email: <a href="mailto:kinhdoanh@.vn">kinhdoanh@.vn</a>
+	            </p>
+		    </div>
+		</div>
+	</footer><!-- /.footer -->
+
+	<a id="return-to-top" class="td-scroll-up" href="javascript:void(0)">
+  		<i class="fa fa-angle-up" aria-hidden="true"></i>
+	</a><!-- return to top -->
+
+	<!-- ===== JS ===== -->
+	<script src="js/jquery.min.js"></script>
+	<!-- ===== JS Bootstrap ===== -->
+	<script src="lib/bootstrap/bootstrap.min.js"></script>
+	<!-- ===== carousel ===== -->
+	<script src="lib/owl.carousel/owl.carousel.min.js"></script>
+	<!-- ===== Bxslider ===== -->
+	<script src="lib/bxslider/jquery.bxslider.min.js"></script>
+	<!-- ===== Bootstrap Select ===== -->
+    <script src="lib/bootstrap-select/js/bootstrap-select.min.js"></script>
+	<!-- ===== Sticky ===== -->
+    <script src="lib/sticky/jquery.sticky.js"></script>
+    <!-- jQuery UI -->
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <!-- ===== Js Common ===== -->
+	<script src="js/common.js"></script>
+
+	<script>
+
+        (function($) {
+
+            "use strict";
+
+            /*  [ Filter by price ]
+
+            - - - - - - - - - - - - - - - - - - - - */
+
+            $('#slider-range').slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [0, 250],
+                slide: function (event, ui) {
+                    $('#amount-left').text('$' + ui.values[0] );
+                    $('#amount-right').text('$' + ui.values[1] );
+                }
+            });
+
+            $('#amount-left').text('$' + $('#slider-range').slider('values', 0));
+            $('#amount-right').text('$' + $('#slider-range').slider('values', 1));
+            
+
+        })(jQuery);
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie6 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 7 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie7 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie8 lte8 lte9"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie9 lte9"><![endif]-->
+<!--[if IE 10 ]><html dir="ltr" lang="vi-VN" class="no-js ie ie10 lte10"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="vn">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+	<title>Detail</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index,follow" />
+	<!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+
+	<!-- ===== Style CSS ===== -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-hd.css">
+	<!-- ===== Responsive CSS ===== -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<link href='css/animations-ie-fix.css' rel='stylesheet'>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="home">
+
+	<header id="header" class="header">
+		<div class="header_top top-bar clearfix">
+			<div class="container">
+				<div class="row">
+					<nav class="top-bar_item top-bar_item-nav navigation navigation-inline pull-right">
+						<ul id="user_info_header" class="navbar-right">
+							<li>
+								<a data-url="#" title="Đăng nhập bằng Facebook" class="user-name-loginfb"><i class="fa fa-facebook-square"></i>Đăng nhập bằng Facebook</a>
+							</li>
+						</ul>
+					</nav>
+					<nav class="top-bar_item top-bar_item-nav navigation navigation-inline pull-right" style="border-right: 1px solid #fff;">
+					    <ul id="user_support" class="navbar-right">
+					        <li><a href="callto:19006760">
+					            <i class="hd hd-phone"></i> Hotline:&nbsp;<span class="hotline_number">1900 6760</span></a>
+					        </li>
+					        <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					        <li>
+					            <a href="javascript:void($zopim.livechat.window.show())"><i class="hd hd-question-circle"></i> Hỗ trợ trực tuyến</a>
+					        </li>
+					    </ul>
+					</nav>
+				</div>
+			</div>
+		</div><!-- /.header -->
+		<div class="fix-header">
+			<div class="header_main clearfix">
+				<div class="container">
+					<div class="row">
+						<a class="toggle-nav visible-xs visible-sm">
+							<i class="hd hd-nav"></i>
+						</a><!-- /.toggle-nav -->
+						<a class="toggle-search visible-xs visible-sm">
+							<i class="hd hd-search"></i>
+						</a><!-- /.toggle-search -->
+						<div class="logo-wrapper col-md-4">
+						    <a href="#" title="">
+						        <img src="images/logo.png" alt="">
+						    </a>
+						</div><!-- /.logo-wrapper -->
+						<div class="search-area col-md-6" id="main-search">
+							<form action="/tim-kiem" method="get" class="">
+								<div class="search-box form-inline clearfix">
+									<div class="search-box_category">
+										<select class="selectpicker" id="category_search" name="category">
+											<option value="0">Tất cả danh mục</option>
+											<option value="557">- Ẩm thực</option>
+											<option value="579">- Spa &apm; Làm đẹp</option>
+											<option value="555">- Giải trí</option>
+											<option value="581">- Du Lịch</option>
+											<option value="571">- Sản Phẩm</option>
+											<option value="593">- Thời Trang &apm; Phụ Kiện</option>
+										</select>
+									</div>
+									<div class="search-box_input">
+										<span class="twitter-typeahead">
+											<input type="text" class="form-control input-search tt-hint" value="" autocomplete="off" placeholder="Tìm kiếm sản phẩm / khuyến mãi">
+										</span>
+										<button class="btn btn-primary">
+											<i class="hd hd-search"></i>
+											<span class="sr-only">Tìm kiếm</span>
+										</button>
+									</div>
+								</div>
+							</form>
+						</div><!-- /.search-area -->
+						<div class="col-md-2 header-cart-wrapper">
+							<ul class="header-cart">
+								<li class="nav-cart">
+									<a href="#" data-toggle="dropdown">
+										<i class="hd hd-cart"></i>
+										<span class="circle">1</span>
+										<span class="hidden-xs hidden-sm">Giỏ hàng</span>
+									</a>
+									<div class="dropdown-menu dropdown-cart">
+										<div class="minicart_wrapper">
+										    <div class="minicart_item">
+										        <div class="minicart_item_info">
+										            <img src="images/cart/338333-buffet-trua-bbq-bo-my-hai-san-lau-gan-50-mon-tai-nha-hang-yaki-3.jpg" alt="">
+										            <div class="minicart_item_name">
+										                <div><a href="/ho-chi-minh/buffet-viet-nhat-han/buffet-trua-bbq-bo-my-hai-san-lau-gan-50-mon-tai-nha-hang-yaki-3-338333.html">Buffet Trưa BBQ Bò Mỹ - Hải Sản - Lẩu Gần 50 Món Tại Nhà Hàng Yaki 3 - <span style="color: #999;">Mã SP: 338333</span></a></div>
+										                <span class="minicart_item_price price"><span class="price_value">150,000</span><span class="price_symbol">đ</span></span> x 1
+										            </div>
+										        </div>
+										        <div class="minicart_item_actions"><a href="#" rel="nofollow" data-product="338333" title="Xóa khỏi giỏ hàng" class="btn-close show-on-hover">x</a></div>
+										    </div>
+										</div><!-- /.minicart_wrapper -->
+										<div class="minicart_summary">
+										    Tổng cộng: <strong>
+										    <span class="price price-highlight">
+										    <span class="price_value">150,000</span>
+										    <span class="price_symbol">đ</span>
+										    </span></strong>
+										</div><!-- /.minicart_summary -->
+										<div class="minicart_actions">
+										    <a class="btn btn-view-cart" href="/checkout-step-1" rel="nofollow">Xem giỏ hàng</a>
+										    <a class="btn btn-primary btn-buy-now btn-border" href="/checkout-step-2" rel="nofollow">Đặt hàng</a>
+										</div><!-- /.minicart_actions -->
+									</div><!-- /.dropdown-menu dropdown-cart -->
+								</li>
+							</ul><!-- /.header-cart -->
+						</div><!-- /.header-cart-wrapper -->
+					</div>
+				</div>
+			</div><!-- /.header_main -->
+			<nav id="mainNav" class="navbar navbar-default navbar-custom nav-top-menu1">
+	 		 	<div class="container" id="main-menu">
+					<div class="collapse navbar-collapse menu" id="menu-navbar-collapse">
+						<ul class="nav navbar-nav navbar-left">
+							<li class="level0"><a class="active" href="#" title="">Trang chủ</a></li>
+							<li class="level0 parent">
+								<a href="#" title="">Mỹ Phẩm</a>
+								<ul class="level0 submenu">
+									<li class="level1 parent">
+										<a href="#" title="">Kem</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Sữa rửa mặt</a></li>
+											<li><a href="#" title="">Bột rửa mặt</a></li>
+											<li><a href="#" title="">Dung dịch hoa hồng</a></li>
+											<li><a href="#" title="">Các loại sản phẩm đi kèm chăm sóc da</a></li>
+										</ul>
+									</li>
+									<li class="level1 parent">
+										<a href="#" title="">Dành cho cơ thể</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Sữa tắm</a></li>
+											<li><a href="#" title="">Sữa dưỡng da</a></li>
+											<li><a href="#" title="">Các loại mỹ phẩm bảo về da chống nắng</a></li>
+										</ul>
+									</li>
+									<li class="level1 parent">
+										<a href="#" title="">Dòng sản phẩm trang điểm</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Phấn trang điểm</a></li>
+											<li><a href="#" title="">Kem nền</a></li>
+											<li><a href="#" title="">Son</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="level0 parent">
+								<a href="#" title="">Dòng thức ăn homemade</a>
+								<ul class="level0 submenu">
+									<li class="level1">
+										<a href="#" title="">Bánh sản xuất theo lịch hàng ngày</a>
+									</li>
+									<li class="level1 parent">
+										<a href="#" title="">Các thực phẩm khô</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Khô bò</a></li>
+											<li><a href="#" title="">Khô gà</a></li>
+										</ul>
+									</li>
+									<li class="level1 parent">
+										<a href="#" title="">Thực phẩm dùng trong thời gian cố định</a>
+										<ul class="level1 submenu">
+											<li><a href="#" title="">Lạp xưởng tươi - khô</a></li>
+											<li><a href="#" title="">Sản phẩm sấy khô</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="level0 parent">
+								<a href="#" title="">Dòng sản phẩm family</a>
+								<ul class="level0 submenu">
+									<li class="level1">
+										<a href="#" title="">Phụ kiện nữ</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Phụ kiện nam</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Dụng cụ dành cho trẻ em, sơ sinh</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Bedroom</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Kitchen</a>
+									</li>
+								</ul>
+							</li>
+							<li class="level0 parent">
+								<a href="#" title="">Quà tặng cao cấp</a>
+								<ul class="level0 submenu">
+									<li class="level1">
+										<a href="#" title="">Sâm, linhc chi, tổ yến</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Rượu nhập các loại</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Bánh nguyên hôp thiếc nhập Nhật</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Thực phẩm chức năng từ Nhật - Mỹ - Úc - Hà Lan</a>
+									</li>
+									<li class="level1">
+										<a href="#" title="">Kitchen</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="contact.html" title="">Liên hệ</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+		        </div>
+	    	</nav><!-- END NAVIGATION -->
+    	</div><!-- /.fix-header -->
+	</header><!-- /.header -->
+
+	<div class="container">
+		<div class="block-breadcrumb">
+			<ol class="breadcrumb">
+				<li><a href="#">Trang Chủ</a></li>
+				<li><a href="#">Thức Ăn Homemade</a></li>
+				<li><a href="#">Khô</a></li>
+				<li class="active">Khô gà xé cay</li>
+			</ol>
+		</div>
+	</div><!-- /.breadcrumb -->
+
+	<main class="main-content clearfix">
+		<div class="container">
+			<div class="product product-details clearfix">
+				<div class="product_gallery gallery ">
+					<div class="gallery_image">
+						<div class="block block-slide-detail">
+							<!-- Place somewhere in the <body> of your page -->
+							<div id="slider" class="flexslider">
+								<ul class="slides slides-large">
+									<li>
+										<a href="images/detail/large/1.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/1.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/2.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/2.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/3.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/3.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/4.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/4.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/6.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/6.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/6.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/6.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/7.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/7.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/1.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/1.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/2.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/2.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/3.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/3.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/4.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/4.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/6.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/6.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/6.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/6.jpg" alt="" />
+	                                    </a>
+									</li>
+									<li>
+										<a href="images/detail/large/7.jpg" data-lightbox="roadtrip">
+	                                    	<img src="images/detail/large/7.jpg" alt="" />
+	                                    </a>
+									</li>
+								</ul>
+							</div>
+							<div id="carousel" class="flexslider">
+								<ul class="slides">
+									<li>
+										<a href="#" data-slide-index="0">
+                                            <img src="images/detail/thumb/1.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="1">
+                                            <img src="images/detail/thumb/2.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="2">
+                                            <img src="images/detail/thumb/3.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="3">
+                                            <img src="images/detail/thumb/4.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="4">
+                                            <img src="images/detail/thumb/5.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="5">
+                                            <img src="images/detail/thumb/6.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="6">
+                                            <img src="images/detail/thumb/7.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="7">
+                                            <img src="images/detail/thumb/1.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="8">
+                                            <img src="images/detail/thumb/2.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="9">
+                                            <img src="images/detail/thumb/3.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="10">
+                                            <img src="images/detail/thumb/4.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="11">
+                                            <img src="images/detail/thumb/5.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="12">
+                                            <img src="images/detail/thumb/6.jpg" alt="#" />
+                                        </a>
+									</li>
+									<li>
+										<a href="#" data-slide-index="13">
+                                            <img src="images/detail/thumb/7.jpg" alt="#" />
+                                        </a>
+									</li>
+								</ul>
+							</div>
+						</div><!-- /block-slide-detail -->
+					</div>
+				</div><!-- /.gallery_image -->
+				<div class="product_details">
+					<div class="product_header">
+						<h1 class="product_title">Buffet Fast Food Kiểu Singapore Độc Đáo - Laho Claypot &amp; Bubble Tea</h1>
+						<div class="product_sharing sharing">
+							<div class="sharing_item">share1</div>
+							<div class="sharing_item">share2</div>
+							<div class="sharing_item">share3</div>
+						</div>
+					</div>
+					<div class="product_description" style="border-bottom: 1px solid #eaeaea;">
+                    	<p>Thỏa Thích Ăn Vặt Trong Không Gian Sạch Sẽ, Trẻ Trung Với Buffet Fast Food Kiểu Singapore Độc Đáo Tại Laho Claypot &amp; Bubble Tea. Voucher 89,000 VNĐ, Còn 47,000 VNĐ, Giảm 47%. Chỉ Có Tại Hotdeal.vn!</p>
+                	</div>
+                	<div class="product_price-info clearfix">
+					    <div class="box-price-detail">
+					        <div class="product_price product_price-list-price _product_price_old">
+					            <span class="price price-list-price">
+						            <span class="hidden-xs hidden-sm">Giá gốc:&nbsp;</span>
+						            <span class="price_value">89,000</span>
+						            <span class="price_symbol">đ</span>
+					            </span>
+					        </div>
+					        <div class="product_price _product_price">
+					        	<span class="price">
+									<span class="price_value" itemprop="price">47,000</span><span class="price_symbol">đ</span>
+									<span class="price_discount">-47%</span>
+								</span>
+					        </div>
+					    </div>
+					</div>
+					<div class="product_add-to-cart border-top clearfix">
+						<form id="form-add-to-cart" action="#" class="add-to-cart add-to-cart-form">
+							<div class="clearfix">
+								<div class="add-to-cart_quantity quantity box-quantity">
+									<span class="quantity_text">Số lượng</span>
+									<select name="" class="_quantity-select quantity_modifier quantity-modifier quantity-modifier-select ">
+										<option value="1">1</option>
+	                                    <option value="2">2</option>
+	                                    <option value="3">3</option>
+	                                    <option value="4">4</option>
+	                                    <option value="5">5</option>
+	                                    <option value="6">6</option>
+	                                    <option value="7">7</option>
+	                                    <option value="8">8</option>
+	                                    <option value="9">9</option>
+	                                    <option value="10">10</option>
+									</select>
+								</div>
+							</div>
+							<div class="add-to-cart_actions add-to-cart-buttons">
+								<button class="btn btn-primary btn-border btn-buy-now-x2">
+					                MUA NGAY <i class="fa fa-long-arrow-right"></i>
+					            </button>
+					            <!-- <button id="add-to-cart" class="btn btn-default btn-add-to-cart">
+				                    <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG
+				                </button> -->
+							</div>
+						</form>
+					</div>
+				</div><!-- /.breadcrumb -->
+			</div><!-- /.product=details -->
+			<div class="well product-well hidden-sm hidden-xs">
+				<div class="row">
+					<div class="col-md-6" style="padding-right: 20px;">
+					    <h3 class="product-well-title">Điểm nổi bật</h3>
+					    <div class="wysiwyg">
+					        <p style="text-align: justify;">- Laho – Claypot &amp; Bubble Tea là một địa chỉ ẩm thực chuyên phục vụ các món ăn đến từ “Vương Quốc Sư Tử”.</p>
+					        <p style="text-align: justify;">- Quán có đa dạng các món ăn như cơm thố/ cháo thố Singapore, cháo cá, cháo môn… Ngoài ra, Laho – Claypot &amp; Bubble Tea còn có nhiều loại thức uống giải khát thơm ngon và bổ dưỡng như trà sữa, trà đào, trà Ô Long…</p>
+					        <p style="text-align: justify;">- Không gian được thiết kế sang trọng, ấm cúng thích hợp cho những buổi sum hợp gia đình vào ngày cuối tuần.</p>
+					        <p style="text-align: justify;">- Nguyên liệu được lựa chọn kĩ lưỡng, đảm bảo chất lượng.</p>
+					        <p style="text-align: justify;">- Đội ngũ đầu bếp được tuyển chọn kỹ lưỡng, am hiểu ẩm thực của Singapore mang đến cho bạn một bữa ăn ngon miệng.</p>
+					        <p style="text-align: justify;">- Thái độ phục vụ chu đáo, ân cần.</p>
+					        <p style="text-align: justify;">- Buffet Fast Food kiểu Singapore độc đáo tại Laho Claypot &amp; Bubble Tea với khoảng 20 món ăn vặt từ quen thuộc như cá viên chiên, tôm viên, bò viên, mực viên, phô mai que, chả cá phô mai, sủi cảo,… đến các món ăn mới lạ như cá viên sốt chua ngọt kiểu Sing, cá tẩm cốm dẹp, hải sản tấm bánh mì, bánh xếp da trứng gà, chả giò Singapore… cho bạn tha hồ lựa chọn và thưởng thức.</p>
+					        <p style="text-align: justify;">Tham khảo thực đơn <a href="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783%20MENu%20LAHO.jpg" target="_blank">tại đây</a>.</p>
+					    </div>
+					</div><!-- /.col-md-6 -->
+					<div class="col-md-6" style="padding-left: 20px;">
+					    <h3 class="product-well-title">Điều kiện sử dụng</h3>
+					    <div class="wysiwyg">
+					        <p style="text-align: justify;">- Thanh toán online nhận ngay voucher điện tử.</p>
+					        <p style="text-align: justify;">- Thanh toán trả sau (COD) nhận voucher điện tử: MIỄN PHÍ.</p>
+					        <p style="text-align: justify;">- Thanh toán trả sau nhận voucher giấy miễn phí cho đơn hàng từ 150.000vnđ trở lên, đơn hàng dưới 150.000vnđ thu phí giao hàng 9.000vnđ.</p>
+					        <p style="text-align: justify;">- Đối với các đơn hàng e-voucher thanh toán trả sau, NVGH sẽ đến thu tiền và hệ thống sẽ gửi mã e-voucher đến số điện thoại/ email đăng ký của khách hàng ngay khi NVGH thu tiền của khách hàng. Mọi thắc mắc xin vui lòng gọi lên tổng đài 1900 6760 để được hỗ trợ.</p>
+					        <p style="text-align: justify;">- Thời hạn sử dụng voucher: <strong>từ 11/10/2017 đến 11/01/2018.</strong></p>
+					        <p style="text-align: justify;">- Địa điểm: 129 Thoại Ngọc Hầu , P.Phú Thạnh, Tân Phú.</p>
+					        <p style="text-align: justify;"><strong>- Áp dụng cho Buffet Fast Food kiểu Singapore độc đáo tại Laho Claypot &amp; Bubble Tea.</strong></p>
+					        <p style="text-align: justify;"><strong>- 01 voucher/01 khách, không giới hạn số lượng khách/ bàn.</strong></p>
+					        <p style="text-align: justify;"><strong>- Áp dụng từ 15h00 – 21h00 các ngày trong tuần.</strong></p>
+					        <p style="text-align: justify;"><strong>- Riêng Lễ Giáng Sinh 24/12 và Tết Dương Lịch 1/1 phụ thu 20.000VND/ 1 voucher.</strong></p>
+					        <p style="text-align: justify;">- Voucher chưa bao gồm nước uống và VAT. Khách hàng thanh toán thêm 10% nếu có nhu cầu xuất hóa đơn VAT.</p>
+					        <p style="text-align: justify;"><strong>- Áp dụng dùng tại quán, không áp dụng mua mang về.</strong></p>
+					        <p style="text-align: justify;">- Trẻ 1-3 tuổi: Miễn phí vé<br> - Trên 3 tuổi: Tính 1 voucher/1 bé<br> - Khách hàng vui lòng order thức ăn vừa đủ, với mỗi 100gram thức ăn thừa Laho phụ thu 25.000vnd/100gram</p>
+					        <p style="text-align: justify;">- Khách hàng liên hệ đặt bàn trước qua Hotline 0122 677 1968 để được phục vụ tốt nhất.</p>
+					        <p style="text-align: justify;">- Không áp dụng đồng thời với các chương trình khuyến mãi khác.</p>
+					        <p style="text-align: justify;">- Khách hàng vui lòng xuất trình voucher trước khi sử dụng dịch vụ.</p>
+					        <p style="text-align: justify;">- Phiếu không có giá trị quy đổi thành tiền mặt, không trả lại tiền thừa.</p>
+					    </div>
+					</div><!-- /.col-md-6 -->
+					<a class="btn btn-default btn-view-more">
+						<span class="more-text">Xem thêm <i class="fa fa-chevron-down"></i></span>
+						<span class="less-text">Thu gọn <i class="fa fa-chevron-up"></i></span>
+					</a><!-- /.btn -->
+				</div>
+			</div><!-- /.product-well -->
+			<div class="content-sidebar clearfix">
+				<div class="content">
+					<div class="block-tabs">
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active"><a href="#infodetail" aria-controls="infodetail" role="tab" data-toggle="tab">Thông Tin Chi Tiết</a></li>
+							<li role="presentation"><a href="#evaluate" aria-controls="evaluate" role="tab" data-toggle="tab">Đánh Giá</a></li>
+						</ul>
+						<!-- Tab panes -->
+				  		<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="infodetail">
+								<div class="block_header  clearfix">
+						            <h3 class="block_title">Thông tin chi tiết</h3>
+						        </div>
+						        <div class="block_content clearfix">
+						        	<div class="wysiwyg">
+									    <p style="text-align:center">
+									    <div class="iframe-wrapper">
+									        <div class="iframe-wrapper"><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/9yH2nJbA5m4" width="560"></iframe></div>
+									    </div>
+									    </p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:justify">Ngày nay, các món ăn vặt không chỉ có mặt nơi vỉa hè, đường phố mà đã xuất hiện trong thực đơn của các nhà hàng, quán ăn sang trọng. Nếu bạn là tín đồ ăn vặt và có mong muốn khám phá một phong cách ăn nhanh mới, đừng bỏ qua tiệc Buffet Fast Food kiểu Singapore độc đáo tại Laho Claypot &amp; Bubble Tea do Hotdeal giới thiệu lần này. Chỉ với 47.000 đồng, bạn tha hồ thưởng thức các món ăn vặt từ quen đến lạ. Thật còn gì tuyệt hơn!</p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(10).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(9).jpg" style="text-align:center"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(29).jpg" style="text-align:center"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(6).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(5).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(8).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(11).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(12).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(24).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(23).jpg"></p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:justify">Đến với tiệc buffet lần này, các thực khách sẽ bắt gặp những món rất đỗi quen thuộc, thường thấy trên các con phố, ngõ hẻm mà chắc hẳn bạn đã nhiều lần thưởng thức qua. Nào là cá viên chiên, cá viên trứng cút, ốc viên chiên, tôm viên, bò viên, mực viên, nào là phô mai que, chả cá phô mai, sủi cảo, khoai tây chiên, xúc xích xông khói, bắp xào tôm, khoai lang lắc phô mai,... Vẫn là những món ăn quen thuộc nhưng mỗi món ăn tại Laho Claypot &amp; Bubble Tea được biến tấu đặc sắc, sử dụng 2 loại nước sốt chấm Spicy và sốt chấm chua ngọt Singapore độc đáo cho hương vị đặc biệt thơm ngon, càng ăn càng ghiền.</p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(13).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(15).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(22).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(20).jpg" style="text-align:center"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(28).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(27).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(26).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:justify">Hấp dẫn nhất phải để đến các món ăn nhanh mang phong cách Singapore mới lạ, độc đáo như cá viên cari, cá viên sốt chua ngọt kiểu Sing, cá tẩm cốm dẹp, hải sản tấm bánh mì, bánh xếp da trứng gà, kimbap chiên sốt Spicy, chả giò Singapore. Những món ăn nóng hổi được trình bày bắt mắt, cho bạn tha hồ lựa chọn và nhâm nhi. Đây chắc hẳn là sự lựa chọn không thể tuyệt vời hơn cho bạn nào mê buffet ăn vặt.</p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(18).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(17).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(25).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(16).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(19).jpg"></p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:justify">Bên cạnh việc giữ gìn hương vị và phong cách đường phố đặc trưng cho từng món ăn, Laho Claypot &amp; Bubble Tea còn rất chú trọng vào việc chọn nguyện liệu tươi ngon để luôn đảm bảo sức khỏe cho thực khách.</p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:justify">Buffet Fast Food kiểu Singapore độc đáo tại Laho Claypot &amp; Bubble Tea được phục vụ từ 15h00 đến 21h00 các ngày trong tuần, rất thích hợp cho những buổi tụ tập bạn bè, đồng nghiệp sau những giờ tan học, tan làm. Giá cả rất “hạt dẻ” mà món ăn đa dạng, hương vị lại mới mẻ, thơm ngon, chắc chắn bạn sẽ có những khoảng thời gian ăn uống vui vẻ, thú vị khi tham gia Buffet Fast Food lần này.</p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:justify"><strong>Về Laho – Claypot &amp; Bubble Tea</strong></p>
+									    <p style="text-align:justify">Laho – Claypot &amp; Bubble Tea ra đời mang đến cho bạn những món ăn ngon và chất lượng đến từ Singapore. Thực đơn tại quán đa dạng nhiều món như cơm thố/ cháo thố Singapore, cháo cá, cháo môn…</p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(7).jpg"></p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:justify">Với tiêu chí đặt sức khỏe của bạn lên hàng đầu, Laho – Claypot &amp; Bubble Tea luôn cam kết lựa chọn những loại nguyên liệu tươi ngon, không tẩm ướp hóa chất vừa đảm bảo sức khỏe cho bạn vừa giữ được chất lượng ngon nhất cho món ăn.</p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(4).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(3).jpg"></p>
+									    <p style="text-align:center">&nbsp;</p>
+									    <p style="text-align:justify">Đến với Laho – Claypot &amp; Bubble Tea bạn sẽ cảm thấy ấm cúng và thoải mái trong một không gian được thiết kế khép kín, thích hợp cho những buổi sum hợp gia đình vào cuối tuần.</p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:center"><img alt="" src="https://oms.hotdeal.vn/images/editors/sources/000339783756/339783-339783-body%20(1).jpg" style="text-align:center"></p>
+									    <p style="text-align:justify">&nbsp;</p>
+									    <p style="text-align:justify"><strong><em><u>Click MUA ngay bạn nhé!</u></em></strong></p>
+									</div>
+									<div class="block-tags">
+										<ul class="tags-list">
+											<li class="text">Xem thêm</li>
+											<li class="tag"><a target="_blank" href="https://www.hotdeal.vn/ho-chi-minh/tag/buffet">Buffet</a></li>
+										</ul>
+									</div>
+						        </div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="evaluate">
+								
+							</div>
+				  		</div>
+			  		</div>
+				</div>
+				<div class="sidebar">
+					<div class="block block-normal">
+						<div class="block_header">
+					        <h3 class="block_title">Deal liên quan</h3>
+					    </div>
+					    <div class="block_content clearfix">
+					    	<div class="products products-list">
+					    		<div class="product-wrapper product-auto-resize product-image-padding">
+					    			<div class="product">
+					    				<div class="product_image">
+		                            		<a href="#" title="">
+		                                		<img class="img-responsive" alt="product" src="images/product/food/1.jpg" />
+		                                	</a>
+		                            	</div>
+		                            	<div class="product_header">
+		                            		<h3 class="product_title">
+								                <a href="#" title="">Hệ Thống Chewy Junior - Bánh Su Kem Singapore Ngon Nhất Sài Gòn</a>
+								            </h3>
+		                            	</div>
+		                            	<div class="product_info">
+		                            		<div class="product_price _product_price">
+												<span class="price">
+													<span class="price_value" itemprop="price">69,000</span><span class="price_symbol">đ</span>
+													<span class="price_discount">-31%</span>
+												</span>
+											</div>
+											<div class="product_price product_price-list-price _product_price_old " style="display: inline-block;">
+											    <span class="price price-list-price">
+											    <span class="price_value">100,000</span><span class="price_symbol">đ</span>
+											    </span>
+											</div>
+											<div class="product_views">
+												<i class="fa fa-user-o"></i> 161
+											</div>
+		                            	</div>
+					    			</div>
+					    		</div>
+					    	</div>
+					    </div>
+					</div>
+				</div><!-- /.sidebar -->
+			</div><!-- /.content-sidebar -->
+		</div>
+	</main><!-- /.main -->
+
+	<footer id="footer" class="footer clearfix">
+		<div class="footer_top">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-8">
+		                <div class="row footer-menu">
+		                    <div class="col-md-4 footer-menu_column">
+		                        <h3 class="menu_heading">Giới thiệu</h3>
+		                        <ul class="menu_listing">
+		                            <li><a href="#">Về Chúng Tôi</a></li>
+		                            <li><a href="#">Quy chế hoạt động</a></li>
+		                            <li><a href="#">Chính sách bảo mật thông tin</a></li>
+		                            <li><a href="#">Cơ chế giải quyết tranh chấp</a></li>
+		                            <li><a href="#">Liên Hệ</a></li>
+		                        </ul>
+		                    </div>
+		                    <div class="col-md-4 footer-menu_column">
+		                        <h3 class="menu_heading">Trợ giúp</h3>
+		                        <ul class="menu_listing">
+		                            <li><a href="#">Quy trình xử lý khi phát hiện hành vi kinh doanh vi phạm </a></li>
+		                            <li><a href="#">Biện pháp xử lý khi phát hiện hành vi kinh doanh vi phạm </a></li>
+		                            <li><a href="#">Cơ chế kiểm soát các nhà cung cấp</a></li>
+		                            <li><a href="#">Hotdeal E-voucher</a></li>
+		                            <li><a href="#">Chính sách giao hàng</a></li>
+		                            <li><a href="#">Chính sách đổi trả hàng</a></li>
+		                            <li><a href="#">Cách thức thanh toán</a></li>
+		                        </ul>
+		                    </div>
+		                    <div class="col-md-4 footer-menu_column">
+		                        <h3 class="menu_heading">Hợp tác</h3>
+		                        <ul class="menu_listing">
+		                            <li><a href="#">Hợp tác kinh doanh</a></li>
+		                            <li><a href="#">Liên hệ hợp tác</a></li>
+		                        </ul>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-md-4 support-info">
+		            	<div class="row">
+			                <div class="col-md-12">
+			                    <h3 class="support-info_heading">Trung tâm chăm sóc khách hàng Tp.HCM</h3>
+			                    <div class="support-info_address">
+			                        70 Lữ Gia, Phường 15, Quận 11, TP.HCM 
+			                    </div>
+			                    <div class="support-info_contact contact">
+			                        <div class="contact_email">Fax: (028) 3866 6237</div>
+			                        <div class="contact_email">Email: <a href="mailto:cs@hotdeal.vn"> cs@hotdeal.vn</a></div>
+			                    </div>
+			                </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="footer_middle">
+			<div class="container">
+				<div class="col-fter-1 col-xs-0">
+					<form action="#" class="fv-form fv-form-bootstrap">
+						<p style="margin-bottom: 10px;"><strong>Đăng ký nhận bản tin khuyến mãi</strong></p>
+						<div class="newsletter form-inline">
+							<div class="form-group has-feedback">
+								<div class="input-group">
+									<input type="text" class="form-control newsletter_input" name="" placeholder="Nhập email của bạn" value="">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<button type="submit" class="btn btn-primary newsletter_button">Đăng ký
+									</button>
+								</div>
+							</div>
+						</div>
+						<label class="control-label register-new-letter-comfirm-footer" style="font-weight: normal;">
+							<input type="checkbox" name="" value="1">
+							Đồng ý với <a target="_blank" href="#">chính sách bảo mật thông tin</a>.
+						</label>
+					</form>
+				</div>
+				<div class="col-fter-3">
+					<div class="social">
+						<div class="social_heading footer-menu-heading">KẾT NỐI VỚI Shop</div>
+						<div class="social_items">
+							<a target="_blank" class="social_item social_item-facebook" href="#" rel="nofollow"><i class="fa fa-facebook"></i></a>
+							<a target="_blank" class="social_item social_item-twitter" href="#" rel="nofollow"><i class="fa fa-twitter"></i></a>
+							<a target="_blank" class="social_item social_item-google-plus" href="#" rel="nofollow"><i class="fa fa-google-plus"></i></a>
+							<a target="_blank" class="social_item social_item-linkedin" href="#" rel="nofollow"><i class="fa fa-linkedin"></i></a>
+							<a target="_blank" class="social_item social_item-youtube" href="#" rel="nofollow"><i class="fa fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-fter-4">
+					<div class="hotline">
+						<span class="hotline_text">HOTLINE&nbsp;</span>
+						<span class="hotline_number">1900 6760</span>
+					</div>
+				</div>
+				 <div class="col-fter-5">
+		            <a target="_blank" href="#">
+		            <img class="img-responsive" src="images/logo-bct.png" style="max-width: 165px;">
+		            </a>
+		        </div>
+			</div>
+		</div>
+		<div class="footer_bottom ">
+		    <div class="container">
+	            <p class="text-center">
+	                <strong class="font15">CÔNG TY CỔ PHẦN HOTDEAL - <br class="visible-xs visible-sm"> TẦNG 2, LỮ GIA PLAZA, 70 LỮ GIA, P.15, Q.11, TP HCM</strong><br>
+	                Mã số thuế: 0310955176 do Sở Kế hoạch đầu tư <br class="visible-xs visible-sm">TP HCM cấp ngày 29/06/2011<br>
+	                ĐT: 028.73055707 – Fax: 028.38666237 - <br class="visible-xs visible-sm">Email: <a href="mailto:kinhdoanh@.vn">kinhdoanh@.vn</a>
+	            </p>
+		    </div>
+		</div>
+	</footer><!-- /.footer -->
+
+	<a id="return-to-top" class="td-scroll-up" href="javascript:void(0)">
+  		<i class="fa fa-angle-up" aria-hidden="true"></i>
+	</a><!-- return to top -->
+
+	<!-- ===== JS ===== -->
+	<script src="js/jquery.min.js"></script>
+	<!-- ===== JS Bootstrap ===== -->
+	<script src="lib/bootstrap/bootstrap.min.js"></script>
+	<!-- ===== carousel ===== -->
+	<script src="lib/owl.carousel/owl.carousel.min.js"></script>
+	<!-- ===== Bxslider ===== -->
+	<script src="lib/bxslider/jquery.bxslider.min.js"></script>
+	<!-- Flexslider -->
+    <script src="lib/flexslider/jquery.flexslider-min.js"></script>
+	<!-- ===== Bootstrap Select ===== -->
+	<script src="lib/bootstrap-select/js/bootstrap-select.min.js"></script>
+	<!-- LightBox -->
+	<script src="lib/lightbox/js/lightbox.js"></script>
+	<!-- ===== Sticky ===== -->
+	<script src="lib/sticky/jquery.sticky.js"></script>
+	<!-- jQuery UI -->
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<!-- ===== Js Common ===== -->
+	<script src="js/common.js"></script>
+
+  <script>
+		$(window).load(function() {
+
+			lightbox.option({
+				'resizeDuration': 700,
+				'wrapAround': true,
+				'showImageNumberLabel': false,
+				'fadeDuration': 700,
+				'positionFromTop': 50,
+			});
+
+			$('#carousel').flexslider({
+				animation: "slide",
+				controlNav: false,
+				animationLoop: true,
+				slideshow: false,
+				itemWidth: 50,
+				itemMargin: 25,
+				nextText: "",
+				prevText: "",
+				asNavFor: '#slider'
+			});
+
+			$('#slider').flexslider({
+				animation: "fade",
+				controlNav: false,
+				directionNav: false,
+				animationLoop: true,
+				slideshow: false,
+				animationSpeed: 500,
+				sync: "#carousel"
+			});
+
+			$('.product-well').each(function() {
+	        var jelm = $(this);
+		        $('.btn-view-more').on('click', function() {
+					sjelm.toggleClass('expanded');
+		        });
+	    	});
+		});
+	</script>
+
+</body>
+</html>
