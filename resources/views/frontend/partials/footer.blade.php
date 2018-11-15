@@ -86,7 +86,7 @@
 	            <p class="text-center">
 	                <strong class="font15 @if($isEdit) edit @endif" data-text="12">{!! $textList[12] !!}</strong><br>
 	                <span data-text="13" @if($isEdit) class="edit" @endif>{!! $textList[13] !!}</span><br>
-	                ĐT: <span data-text="14" @if($isEdit) class="edit" @endif>{!! $textList[14] !!}</span> – Fax: <span data-text="15" @if($isEdit) class="edit" @endif>{!! $textList[15] !!}</span> - <br class="visible-xs visible-sm">Email: <a href="mailto:{!! $textList[16] !!}" data-text="16" @if($isEdit) class="edit" @endif>{!! $textList[16] !!}</a>
+	                ĐT: <span data-text="14" @if($isEdit) class="edit" @endif>{!! $textList[14] !!}</span> - <br class="visible-xs visible-sm">Email: <a href="mailto:{!! $textList[16] !!}" data-text="16" @if($isEdit) class="edit" @endif>{!! $textList[16] !!}</a>
 	            </p>
 		    </div>
 		</div>
